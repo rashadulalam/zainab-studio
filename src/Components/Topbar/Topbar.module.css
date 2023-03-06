@@ -1,0 +1,18 @@
+.topbarArea {
+    background-color: #545454;
+    padding: 5px 0;
+}
+.contactInfo a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: 300ms
+
+}
+.contactInfo a:hover {
+    color: #E96B56;
+}
+.contactInfoIcons {
+    color: #E96B56;
+    margin-right: 5px
+}
