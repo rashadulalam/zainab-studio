@@ -5,7 +5,7 @@ import styles from './Home.module.css'
 const Home = () => {
     return (
         <>
-            <Topbar />
+            <h1 className='py-4 text-center display-1'>Home</h1>
         </>
     );
 };

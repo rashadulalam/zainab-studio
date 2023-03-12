@@ -9,10 +9,25 @@
     transition: 300ms
 
 }
-.contactInfo a:hover {
+.social_ink {
+    text-decoration: none;
+    color: #ddd;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: 300ms
+
+}
+.social_ink:hover {
+    color: #fff;
+}
+.contactInfo a:hover{
     color: #E96B56;
 }
 .contactInfoIcons {
     color: #E96B56;
     margin-right: 5px
+}
+
+@media only screen and (max-width: 768px ) {
+   
 }

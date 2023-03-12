@@ -17,12 +17,12 @@ const Topbar = () => {
                                 <Link to="tel:123-456-7890" className="d-inline-flex align-items-center"><BsPhone className={classNames(styles.contactInfoIcons)} />123-456-7890</Link>
                             </div>
                         </Col>
-                        <Col sm={6} className="">
+                        <Col sm={6} className="align-self-center">
                             <div className='social-info d-flex justify-content-end'>
-                                <Link to="https://facebook.com"><BsFacebook /></Link>
-                                <Link to="https://twitter.com"><BsTwitter /></Link>
-                                <Link to="https://instagram.com"><BsInstagram /></Link>
-                                <Link to="https://linkedin.com"><BsLinkedin /></Link>
+                                <Link to="https://facebook.com" className={classNames(styles.social_ink)}><BsFacebook /></Link>
+                                <Link to="https://twitter.com" className={classNames(styles.social_ink)}><BsTwitter /></Link>
+                                <Link to="https://instagram.com" className={classNames(styles.social_ink)}><BsInstagram /></Link>
+                                <Link to="https://linkedin.com" className={classNames(styles.social_ink)}><BsLinkedin /></Link>
                             </div>
                         </Col>
                     </Row>

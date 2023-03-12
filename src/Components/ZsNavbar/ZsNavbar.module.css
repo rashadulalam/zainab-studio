@@ -1,0 +1,22 @@
+.zLogo {
+    font-size: 22px !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 10px;
+}
+.zLogo::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5px;
+    height: 30px;
+    background-color: #E96B56;
+}
+
+.zNavLink.active,
+.zNavLink:hover {
+    color: #E96B56 !important;
+}
