@@ -5,7 +5,7 @@ import styles from './Subscription.module.css';
 
 const Subscription = () => {
     return (
-        <section className={classNames(styles.subscriptionArea, 'py-5')}>
+        <section className={classNames(styles.subscriptionArea, 'py-5 mt-4')}>
             <Container>
                 <Row className='d-flex align-items-center'>
                     <Col lg='6' className='text-white text-lg-start text-sm-center mb-lg-0 mb-sm-4'>
