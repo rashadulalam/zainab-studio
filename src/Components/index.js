@@ -8,3 +8,5 @@ export {default as GMap} from './GMap/GMap';
 export {default as CForm} from './CForm/CForm';
 export {default as HeroSlide} from './HeroSlide/HeroSlide';
 export {default as Subscription} from './Subscription/Subscription';
+export {default as Features} from './Features/Features';
+export {default as TeamWork} from './TeamWork/TeamWork';

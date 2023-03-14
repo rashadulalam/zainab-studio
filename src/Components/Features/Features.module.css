@@ -1,0 +1,17 @@
+.featureText {
+    background-color: #fff;
+    transition: 300ms;
+}
+.featureIcon {
+    color: #E96B56;
+    width: 50px;
+    height: 50px;
+}
+.featureText:hover .featureIcon,
+.featureText:hover .featureBody, 
+.featureText:hover .featureTitle {
+    color: #fff;
+}
+.featureText:hover {
+    background-color: #E96B56;
+}
