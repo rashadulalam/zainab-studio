@@ -1,7 +1,7 @@
 import React from 'react';
 import { About, Blogs, Contact, Home } from './Pages';
 import {Routes, Route}  from 'react-router-dom';
-import { Footer, Topbar, ZsNavbar } from './Components';
+import { Footer, Topbar, ZsNavbar, Subscription } from './Components';
 
 const App = () => {
   return (
@@ -15,6 +15,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={"404 Not Found!"} />
       </Routes>
+      <Subscription />
       <Footer />
       
     </>

@@ -1,0 +1,14 @@
+.subscriptionArea {
+    background-color: #404040;
+}
+.sFormOuter {
+    
+}
+.sInput:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.sButton {
+    background-color: #FFFFFF;
+}

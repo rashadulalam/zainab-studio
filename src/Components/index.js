@@ -5,3 +5,6 @@ export {default as Footer} from './Footer/Footer';
 export {default as SocialLinks} from './SocialLinks/SocialLinks';
 export {default as LocationPin} from './LocationPin/LocationPin';
 export {default as GMap} from './GMap/GMap';
+export {default as CForm} from './CForm/CForm';
+export {default as HeroSlide} from './HeroSlide/HeroSlide';
+export {default as Subscription} from './Subscription/Subscription';

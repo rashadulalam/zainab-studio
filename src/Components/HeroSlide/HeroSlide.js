@@ -1,6 +1,21 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
+import {Carousel} from 'react-bootstrap';
 const HeroSlide = () => {
+    const [hslide, setHslide] = useState([]);
+
+    useEffect(()=> {
+        fetch("slide.json")
+        .then((res) => res.json())
+        .then((data) => setHslide(data))
+        console.log(hslide)
+    })
+
+   
+
+
+
+
     return (
         <>
            <Carousel>
